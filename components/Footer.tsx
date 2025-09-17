@@ -31,7 +31,7 @@ const Footer = () => {
             aria-label="Back to Top"
             tabIndex={0}
           >
-            Back to Top
+            Yuvraj Singh
           </button>
         </div>
       </div>
