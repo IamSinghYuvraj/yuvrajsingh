@@ -28,20 +28,17 @@ const Contact = () => {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch('/api/send-whatsapp', {
+      const response = await fetch('/api/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          ...formData,
-          phone: '919326056155', // Hardcoded phone number with country code
-        }),
+        body: JSON.stringify(formData),
       });
 
       const result = await response.json();
       
-      if (response.ok) {
+      if (response.ok && result.success) {
         setSubmitStatus({
           success: true,
           message: 'Message sent successfully! I\'ll get back to you soon.',
