@@ -19,7 +19,7 @@ const About = () => {
             <div className="inline-block mb-6 relative group">
               <div className="w-48 h-48 rounded-full overflow-hidden mx-auto md:mx-0 transition-all duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-blue-500/30">
                 <img
-                  src={profileimg}
+                  src={profileimg.src}
                   alt="Yuvraj Singh"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />

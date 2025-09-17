@@ -74,7 +74,7 @@ const Projects = () => {
             >
               <div className="relative overflow-hidden">
                 <img
-                  src={project.image}
+                  src={project.image.src}
                   alt={project.title}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700"
                 />

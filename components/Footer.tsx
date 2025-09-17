@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <Code className="h-6 w-6 text-blue-400" />
             <span className="text-lg font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Alex Johnson
+              Yuvraj Singh
             </span>
           </div>
 
