@@ -1,6 +1,5 @@
 import { Download, MapPin } from 'lucide-react';
 import profileimg from "../assets/ProfileImage.jpg"
-import resume from "../assets/resume.pdf"
 
 
 const About = () => {
@@ -34,7 +33,7 @@ const About = () => {
             </div>
             
             <a 
-              href={resume}
+              href="/resume.pdf"
               download="Yuvraj_Singh_Resume.pdf"
               className="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 flex items-center gap-2 mx-auto md:mx-0 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
               aria-label="Download CV"
